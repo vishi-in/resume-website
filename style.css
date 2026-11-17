@@ -1,0 +1,113 @@
+/* --- Global styles for the whole page --- */
+body {
+    background-color: #f4f4f9; 
+    font-family: Arial, sans-serif; /* kept it simple and clean */
+    color: #333333; 
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* --- Header styles (dark blue background) --- */
+.header {
+    background-color: #002a5c; 
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.header p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #cccccc;
+}
+
+/* --- Layout container (making a 2 column look) --- */
+.container {
+    display: table; /* basic table layout learned in class */
+    width: 85%;
+    max-width: 1000px;
+    margin: 30px auto; 
+    background-color: #ffffff; 
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+.main-content {
+    display: table-cell;
+    width: 65%;
+    padding: 30px;
+    vertical-align: top;
+}
+
+.sidebar {
+    display: table-cell;
+    width: 35%;
+    padding: 30px;
+    background-color: #f8f9fa; 
+    border-left: 1px solid #ddd;
+    vertical-align: top;
+}
+
+/* --- Heading colors and borders --- */
+h2, h3 {
+    color: #002a5c; 
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 24px;
+    border-bottom: 2px solid #007bff; 
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+/* --- Styling lists for skills --- */
+ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+/* --- Small cards inside the sidebar --- */
+.sidebar-card {
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+}
+
+.sidebar-card p {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+/* --- Footer style --- */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #002a5c;
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 30px;
+}
