@@ -111,3 +111,13 @@ li {
     font-size: 13px;
     margin-top: 30px;
 }
+/* Make two-column table stack vertically on mobile screens */
+@media screen and (max-width: 768px) {
+    table, tr, td {
+        display: block !important;
+        width: 100% !important;
+    }
+    td {
+        margin-bottom: 20px;
+    }
+}
